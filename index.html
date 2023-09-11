@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orbital Restaurant</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&family=Manrope:wght@300;400;500;600;700;800&family=Lobster+Two&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./dist/main.css">
+</head>
+
+<body class="antialiased">
+
+  <nav class="navbar container">
+    <img src="./assets/logo.png" alt="logo" class="brand">
+    <ul class="nav">
+      <li><a class="active" href="#">Index</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Chefs</a></li>
+    </ul>
+    <ul class="actions">
+      <li><a href="#"><i data-feather='search'></i></a></li>
+      <li><a href="#" data-badge="5"><i data-feather='shopping-bag'></i></a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <section class="flex flex-col justify-center">
+      <p class="font-lobster text-3xl text-primary">Special Fast food</p>
+      <h1 class="text-7xl font-barlow font-bold mb-6">Delicious Foods With Wonderful Eating</h1>
+      <h4 class="font-medium text-xl text-gray mb-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, deserunt.</h4>
+      <button class="btn w-max">Check menu</button>
+    </section>
+
+    <img src="./assets/beef.png" alt="beef" class="hidden xl:block">
+  </header>
+
+  <section class="features">
+    <article class="feature">
+      <span class="text-primary inline-block mb-2"><i data-feather='clock' class="w-[80px] h-[80px]"></i></span>
+      <h5 class="text-3xl font-bold text-white">Fast Foods</h5>
+      <p class="text-neutral-400 font-medium">100% Natural fast foods</p>
+    </article>
+    <article class="feature">
+      <span class="text-primary inline-block mb-2"><i data-feather='truck' class="w-[80px] h-[80px]"></i></span>
+      <h5 class="text-3xl font-bold text-white">Home Delivery</h5>
+      <p class="text-neutral-400 font-medium">Free home delivery by $50</p>
+    </article>
+    <article class="feature">
+      <span class="text-primary inline-block mb-2"><i data-feather='dollar-sign' class="w-[80px] h-[80px]"></i></span>
+      <h5 class="text-3xl font-bold text-white">Low Costing</h5>
+      <p class="text-neutral-400 font-medium">By prioritizing Efficiency</p>
+    </article>
+  </section>
+
+
+  <section class="py-20 container bg-[linear-gradient(120deg,var(--accent)_50%,white)]">
+    <p class="text-2xl text-primary text-center font-lobster">Choose what you hungry says</p>
+    <h2 class="text-black text-6xl font-bold font-barlow text-center mb-8">Food Menu</h2>
+
+    <article class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 container">
+      <div class="menu-item">
+        <div class="h-[200px] w-full bg-[url(../assets/cooked_beef.jpg)] bg-center bg-cover rounded-t-lg"></div>
+        <div class=" py-4 px-4 text-center">
+          <h5 class="text-2xl text-black font-barlow font-bold mb-2">Burguer</h5>
+          <div class="mb-4">
+            <div class="flex justify-center gap-1 text-orange-500 mb-1">
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px]"></i>
+          </div>
+          <p class="text-sm text-gray">Based on 20 reviews</p>
+          </div>
+
+          <p class="text-primary text-2xl font-bold mb-4">$20.00</p>
+          <button class="btn block w-full">Add to cart</button>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="h-[200px] w-full bg-[url(../assets/cooked_beef.jpg)] bg-center bg-cover rounded-t-lg"></div>
+        <div class=" py-4 px-4 text-center">
+          <h5 class="text-2xl text-black font-barlow font-bold mb-2">Burguer</h5>
+          <div class="mb-4">
+            <div class="flex justify-center gap-1 text-orange-500 mb-1">
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px]"></i>
+          </div>
+          <p class="text-sm text-gray">Based on 20 reviews</p>
+          </div>
+
+          <p class="text-primary text-2xl font-bold mb-4">$20.00</p>
+          <button class="btn block w-full">Add to cart</button>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="h-[200px] w-full bg-[url(../assets/cooked_beef.jpg)] bg-center bg-cover rounded-t-lg"></div>
+        <div class=" py-4 px-4 text-center">
+          <h5 class="text-2xl text-black font-barlow font-bold mb-2">Burguer</h5>
+          <div class="mb-4">
+            <div class="flex justify-center gap-1 text-orange-500 mb-1">
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px]"></i>
+          </div>
+          <p class="text-sm text-gray">Based on 20 reviews</p>
+          </div>
+
+          <p class="text-primary text-2xl font-bold mb-4">$20.00</p>
+          <button class="btn block w-full">Add to cart</button>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="h-[200px] w-full bg-[url(../assets/cooked_beef.jpg)] bg-center bg-cover rounded-t-lg"></div>
+        <div class=" py-4 px-4 text-center">
+          <h5 class="text-2xl text-black font-barlow font-bold mb-2">Burguer</h5>
+          <div class="mb-4">
+            <div class="flex justify-center gap-1 text-orange-500 mb-1">
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px]"></i>
+          </div>
+          <p class="text-sm text-gray">Based on 20 reviews</p>
+          </div>
+
+          <p class="text-primary text-2xl font-bold mb-4">$20.00</p>
+          <button class="btn block w-full">Add to cart</button>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="h-[200px] w-full bg-[url(../assets/cooked_beef.jpg)] bg-center bg-cover rounded-t-lg"></div>
+        <div class=" py-4 px-4 text-center">
+          <h5 class="text-2xl text-black font-barlow font-bold mb-2">Burguer</h5>
+          <div class="mb-4">
+            <div class="flex justify-center gap-1 text-orange-500 mb-1">
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px]"></i>
+          </div>
+          <p class="text-sm text-gray">Based on 20 reviews</p>
+          </div>
+
+          <p class="text-primary text-2xl font-bold mb-4">$20.00</p>
+          <button class="btn block w-full">Add to cart</button>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="h-[200px] w-full bg-[url(../assets/cooked_beef.jpg)] bg-center bg-cover rounded-t-lg"></div>
+        <div class=" py-4 px-4 text-center">
+          <h5 class="text-2xl text-black font-barlow font-bold mb-2">Burguer</h5>
+          <div class="mb-4">
+            <div class="flex justify-center gap-1 text-orange-500 mb-1">
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px]"></i>
+          </div>
+          <p class="text-sm text-gray">Based on 20 reviews</p>
+          </div>
+
+          <p class="text-primary text-2xl font-bold mb-4">$20.00</p>
+          <button class="btn block w-full">Add to cart</button>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="h-[200px] w-full bg-[url(../assets/cooked_beef.jpg)] bg-center bg-cover rounded-t-lg"></div>
+        <div class=" py-4 px-4 text-center">
+          <h5 class="text-2xl text-black font-barlow font-bold mb-2">Burguer</h5>
+          <div class="mb-4">
+            <div class="flex justify-center gap-1 text-orange-500 mb-1">
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px]"></i>
+          </div>
+          <p class="text-sm text-gray">Based on 20 reviews</p>
+          </div>
+
+          <p class="text-primary text-2xl font-bold mb-4">$20.00</p>
+          <button class="btn block w-full">Add to cart</button>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="h-[200px] w-full bg-[url(../assets/cooked_beef.jpg)] bg-center bg-cover rounded-t-lg"></div>
+        <div class=" py-4 px-4 text-center">
+          <h5 class="text-2xl text-black font-barlow font-bold mb-2">Burguer</h5>
+          <div class="mb-4">
+            <div class="flex justify-center gap-1 text-orange-500 mb-1">
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px]"></i>
+          </div>
+          <p class="text-sm text-gray">Based on 20 reviews</p>
+          </div>
+
+          <p class="text-primary text-2xl font-bold mb-4">$20.00</p>
+          <button class="btn block w-full">Add to cart</button>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="h-[200px] w-full bg-[url(../assets/cooked_beef.jpg)] bg-center bg-cover rounded-t-lg"></div>
+        <div class=" py-4 px-4 text-center">
+          <h5 class="text-2xl text-black font-barlow font-bold mb-2">Burguer</h5>
+          <div class="mb-4">
+            <div class="flex justify-center gap-1 text-orange-500 mb-1">
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px]"></i>
+          </div>
+          <p class="text-sm text-gray">Based on 20 reviews</p>
+          </div>
+
+          <p class="text-primary text-2xl font-bold mb-4">$20.00</p>
+          <button class="btn block w-full">Add to cart</button>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="h-[200px] w-full bg-[url(../assets/cooked_beef.jpg)] bg-center bg-cover rounded-t-lg"></div>
+        <div class=" py-4 px-4 text-center">
+          <h5 class="text-2xl text-black font-barlow font-bold mb-2">Burguer</h5>
+          <div class="mb-4">
+            <div class="flex justify-center gap-1 text-orange-500 mb-1">
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px] fill-orange-500"></i>
+            <i data-feather="star" class="h-[20px] w-[20px]"></i>
+          </div>
+          <p class="text-sm text-gray">Based on 20 reviews</p>
+          </div>
+
+          <p class="text-primary text-2xl font-bold mb-4">$20.00</p>
+          <button class="btn block w-full">Add to cart</button>
+        </div>
+      </div>
+    </article>
+  </section>
+
+
+  <section class="py-20 bg-white container">
+    <p class="text-2xl text-primary text-center font-lobster">Who made we exists</p>
+    <h2 class="text-black text-6xl font-bold font-barlow text-center mb-8">Meet Our Expert Chefs</h2>
+
+    <article class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
+      <div class="rounded-lg bg-neutral-100 text-center px-4 py-8">
+        <img src="./assets/chef.jpg" alt="chef" class="inline-block rounded-full h-[200px] mb-8 border-primary border-8 shadow-[0_0_0_8px_white]">
+        <h5 class="text-xl font-bold text-black">Michek Clark</h5>
+        <p class="text-base text-gray font-medium mb-4">Senior Chef</p>
+
+        <div class="flex justify-center gap-2">
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="facebook" class="h-[18px] w-[18px]"></i></a>
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="twitter" class="h-[18px] w-[18px]"></i></a>
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="linkedin" class="h-[18px] w-[18px]"></i></a>
+        </div>
+      </div>
+      <div class="rounded-lg bg-neutral-100 text-center px-4 py-8">
+        <img src="./assets/chef.jpg" alt="chef" class="inline-block rounded-full h-[200px] mb-8 border-primary border-8 shadow-[0_0_0_8px_white]">
+        <h5 class="text-xl font-bold text-black">Michek Clark</h5>
+        <p class="text-base text-gray font-medium mb-4">Senior Chef</p>
+
+        <div class="flex justify-center gap-2">
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="facebook" class="h-[18px] w-[18px]"></i></a>
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="twitter" class="h-[18px] w-[18px]"></i></a>
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="linkedin" class="h-[18px] w-[18px]"></i></a>
+        </div>
+      </div>
+      <div class="rounded-lg bg-neutral-100 text-center px-4 py-8">
+        <img src="./assets/chef.jpg" alt="chef" class="inline-block rounded-full h-[200px] mb-8 border-primary border-8 shadow-[0_0_0_8px_white]">
+        <h5 class="text-xl font-bold text-black">Michek Clark</h5>
+        <p class="text-base text-gray font-medium mb-4">Senior Chef</p>
+
+        <div class="flex justify-center gap-2">
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="facebook" class="h-[18px] w-[18px]"></i></a>
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="twitter" class="h-[18px] w-[18px]"></i></a>
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="linkedin" class="h-[18px] w-[18px]"></i></a>
+        </div>
+      </div>
+      <div class="rounded-lg bg-neutral-100 text-center px-4 py-8">
+        <img src="./assets/chef.jpg" alt="chef" class="inline-block rounded-full h-[200px] mb-8 border-primary border-8 shadow-[0_0_0_8px_white]">
+        <h5 class="text-xl font-bold text-black">Michek Clark</h5>
+        <p class="text-base text-gray font-medium mb-4">Senior Chef</p>
+
+        <div class="flex justify-center gap-2">
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="facebook" class="h-[18px] w-[18px]"></i></a>
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="twitter" class="h-[18px] w-[18px]"></i></a>
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="linkedin" class="h-[18px] w-[18px]"></i></a>
+        </div>
+      </div>
+      <div class="rounded-lg bg-neutral-100 text-center px-4 py-8">
+        <img src="./assets/chef.jpg" alt="chef" class="inline-block rounded-full h-[200px] mb-8 border-primary border-8 shadow-[0_0_0_8px_white]">
+        <h5 class="text-xl font-bold text-black">Michek Clark</h5>
+        <p class="text-base text-gray font-medium mb-4">Senior Chef</p>
+
+        <div class="flex justify-center gap-2">
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="facebook" class="h-[18px] w-[18px]"></i></a>
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="twitter" class="h-[18px] w-[18px]"></i></a>
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="linkedin" class="h-[18px] w-[18px]"></i></a>
+        </div>
+      </div>
+      <div class="rounded-lg bg-neutral-100 text-center px-4 py-8">
+        <img src="./assets/chef.jpg" alt="chef" class="inline-block rounded-full h-[200px] mb-8 border-primary border-8 shadow-[0_0_0_8px_white]">
+        <h5 class="text-xl font-bold text-black">Michek Clark</h5>
+        <p class="text-base text-gray font-medium mb-4">Senior Chef</p>
+
+        <div class="flex justify-center gap-2">
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="facebook" class="h-[18px] w-[18px]"></i></a>
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="twitter" class="h-[18px] w-[18px]"></i></a>
+          <a href="#" class="rounded-full bg-primary p-2 text-white"><i data-feather="linkedin" class="h-[18px] w-[18px]"></i></a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <footer class="bg-black flex flex-col sm:flex-row items-center sm:justify-between container py-8">
+    <p class="text-slate-300 font-medium text-base">Copyright &copy; 2023. All Rights Reserved.</p>
+    <p class="text-slate-300 font-medium text-base">Orbital Restaurant</p>
+  </footer>
+
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>feather.replace()</script>
+
+</body>
+
+</html>
